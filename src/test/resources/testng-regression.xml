@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nashtech Automation" configfailurepolicy="continue" data-provider-thread-count="3">
+	<test name="Smoke Test Chrome">
+		<classes>
+			<class name="com.nashtech.automation.tests.LoginTests">
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

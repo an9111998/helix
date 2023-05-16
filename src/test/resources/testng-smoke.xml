@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nashtech Automation" configfailurepolicy="continue" data-provider-thread-count="3">
+	<test name="Smoke Test Chrome">
+		<parameter name="browserName" value="chrome"></parameter>
+		<parameter name="browserVersion" value="latest"></parameter>
+		<parameter name="platformName" value="Windows"></parameter>
+		<parameter name="platformVersion" value="10"></parameter>
+		<classes>
+			<class name="com.nashtech.automation.tests.LoginTests">
+			</class>
+		</classes>
+	</test>
+	<test name="Smoke Test Firefox">
+		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserVersion" value="latest"></parameter>
+		<parameter name="platformName" value="Windows"></parameter>
+		<parameter name="platformVersion" value="10"></parameter>
+		<classes>
+			<class name="com.nashtech.automation.tests.LoginTests">
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
